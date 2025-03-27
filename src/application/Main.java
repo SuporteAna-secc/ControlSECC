@@ -1,14 +1,18 @@
 package application;
 
-import modal.entities.Equipment;
+import java.sql.Connection;
+
+import db.DB;
+
+
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Equipment equipment = new Equipment();
-		
-		equipment.getEquipment();
+		Connection conn = DB.getConnection();
+		 DB.closeConnection();
+
 
 	}
 

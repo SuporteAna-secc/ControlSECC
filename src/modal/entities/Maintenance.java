@@ -1,9 +1,12 @@
 package modal.entities;
 
 import java.time.LocalDate;
+//import java.time.format.DateTimeFormatter;
 
 public class Maintenance {
 
+//	private static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+	
 	private LocalDate date;
 	private Integer id;
 	private Integer id_equipment;
