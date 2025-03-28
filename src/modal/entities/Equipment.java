@@ -71,5 +71,14 @@ public class Equipment {
 	public void setOrigin(String origin) {
 		this.origin = origin;
 	}
+
+	@Override
+	public String toString() {
+		return "Equipment [type=" + type + ", cod_serial=" + cod_serial + ", model=" + model + ", id=" + id
+				+ ", status=" + status + ", origin=" + origin + "]";
+	}
+
+	
+
 	
 }
